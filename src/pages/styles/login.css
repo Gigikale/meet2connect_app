@@ -1,0 +1,222 @@
+.body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    filter: blur(4px);
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+  
+}
+.bg-left{
+    width: 30%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    /* z-index: -1; */
+}
+.bg-right{
+    width: 70%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.bg-image{
+    height: 100vh;
+}
+.sec-body{
+    height: 80vh;
+    width: 85vw;
+    background-color:white;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    box-shadow: 50px 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* padding: 16px; */
+    /* right: 0; */
+    left: 65px;
+    top: 70px;
+}
+.sec-body-left{
+    width: 30%;
+    position: relative;
+    
+}
+.sec-body-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 20px;
+}
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sec-body-left h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: blue;
+    padding-left: 10px;
+    z-index: 1;
+    box-shadow: 50px 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    /* display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20%;
+    margin-top: 6%;
+    margin-bottom: 7%; */
+}
+
+.chat-logo img {
+    width: 90px;
+    height: 90px;
+}
+
+.welcome-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+
+.input {
+    width: calc(85% - 0px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em; 
+    outline: none;
+    transition: border 0.3s ease;
+    margin-bottom: 5px; 
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+
+.forgot-password {
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 8%;
+    color: rgb(26, 135, 236);
+    gap: none;
+}
+.forgot-password:hover {
+    color: red;
+}
+
+.submit-button {
+    width: calc(85% - 0px);
+    padding: 8px;
+    background-color: #0011ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex-grow: 0.4;
+    height: 1px;
+    background-color: #ccc;
+    
+}
+
+.or-text {
+    margin: 0 10px;
+    color: #888;
+}
+.field{
+    margin-bottom: 10px;
+    /* display: flex;
+    margin-right: 40px; */
+}
+
+.google-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: calc(85% - 0px);
+    /* margin-left: 10%; */
+}
+.google-signin:hover {
+    background-color: #f7f7f7;
+}
+
+.google-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.signup-prompt {
+    margin-top: 20px;
+}
+.signup-prompt span {
+    color:#555
+}
+.signup-prompt .account {
+    color: #2600ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-prompt .account:hover {
+    text-decoration: underline;
+    color: red;
+  }
+.form {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 20%;
+
+    /* margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px; */
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
+    
+}
+
+
+
+
